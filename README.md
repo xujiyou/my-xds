@@ -28,7 +28,9 @@ xDS 的目的是通过 API 来动态更新 Envoy 的配置。作为对比， Ngi
 
 ## xDS API
 
-xDS API 在envoy中被称为 `Data plane API`。其代码保存在 https://github.com/envoyproxy/envoy/tree/master/api/envoy/api/v2，用户可以根据proto文件自行生成相对应语言的GRPC代码文件。
+xDS API 在envoy中被称为 `Data plane API`。其代码保存在 https://github.com/envoyproxy/envoy/tree/master/api/envoy/api/v2
+
+用户可以根据proto文件自行生成相对应语言的GRPC代码文件。
 
 Envoy 官方提供了两份 xDS Server 的实现，分别是：
 
